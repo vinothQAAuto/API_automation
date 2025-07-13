@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-13T12:16:19 IST" name="Default suite" finished-at="2025-07-13T12:16:30 IST" duration-ms="10268">
+    <groups>
+    </groups>
+    <test started-at="2025-07-13T12:16:19 IST" name="Default test" finished-at="2025-07-13T12:16:30 IST" duration-ms="10268">
+      <class name="tests.DynamicallyApi3">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:19 IST" name="setup" finished-at="2025-07-13T12:16:19 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.getUserName_Positive()[pri:1, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserName_Positive()[pri:1, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:19 IST" name="getUserName_Positive" finished-at="2025-07-13T12:16:23 IST" duration-ms="3251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserName_Positive -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:23 IST" name="setup" finished-at="2025-07-13T12:16:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.createUser_Positive()[pri:2, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser_Positive()[pri:2, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:23 IST" name="createUser_Positive" finished-at="2025-07-13T12:16:23 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_Positive -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:24 IST" name="setup" finished-at="2025-07-13T12:16:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.updateUser_Positive()[pri:3, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateUser_Positive()[pri:3, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:24 IST" name="updateUser_Positive" finished-at="2025-07-13T12:16:24 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser_Positive -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:24 IST" name="setup" finished-at="2025-07-13T12:16:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.deleteUser_Positive()[pri:4, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUser_Positive()[pri:4, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:24 IST" name="deleteUser_Positive" finished-at="2025-07-13T12:16:25 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser_Positive -->
+        <test-method signature="getUserName_Negative()[pri:5, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:25 IST" name="getUserName_Negative" finished-at="2025-07-13T12:16:25 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserName_Negative -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:25 IST" name="setup" finished-at="2025-07-13T12:16:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.getUserName_Negative()[pri:5, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:25 IST" name="setup" finished-at="2025-07-13T12:16:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.createUser_Negative_EmptyPayload()[pri:6, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser_Negative_EmptyPayload()[pri:6, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:25 IST" name="createUser_Negative_EmptyPayload" finished-at="2025-07-13T12:16:26 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_Negative_EmptyPayload -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:26 IST" name="setup" finished-at="2025-07-13T12:16:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.updateUser_Negative_InvalidUser()[pri:7, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateUser_Negative_InvalidUser()[pri:7, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:26 IST" name="updateUser_Negative_InvalidUser" finished-at="2025-07-13T12:16:26 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser_Negative_InvalidUser -->
+        <test-method signature="deleteUser_Negative_InvalidUser()[pri:8, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:26 IST" name="deleteUser_Negative_InvalidUser" finished-at="2025-07-13T12:16:27 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser_Negative_InvalidUser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:26 IST" name="setup" finished-at="2025-07-13T12:16:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.deleteUser_Negative_InvalidUser()[pri:8, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:27 IST" name="setup" finished-at="2025-07-13T12:16:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.getUser_InvalidParam()[pri:9, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUser_InvalidParam()[pri:9, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:27 IST" name="getUser_InvalidParam" finished-at="2025-07-13T12:16:27 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser_InvalidParam -->
+        <test-method signature="createUser_MalformedJson()[pri:10, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:27 IST" name="createUser_MalformedJson" finished-at="2025-07-13T12:16:28 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_MalformedJson -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:27 IST" name="setup" finished-at="2025-07-13T12:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.createUser_MalformedJson()[pri:10, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:28 IST" name="setup" finished-at="2025-07-13T12:16:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.updateUser_EmptyBody()[pri:11, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateUser_EmptyBody()[pri:11, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:28 IST" name="updateUser_EmptyBody" finished-at="2025-07-13T12:16:28 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser_EmptyBody -->
+        <test-method signature="deleteUser_InvalidMethod()[pri:12, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:28 IST" name="deleteUser_InvalidMethod" finished-at="2025-07-13T12:16:29 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser_InvalidMethod -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:28 IST" name="setup" finished-at="2025-07-13T12:16:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.deleteUser_InvalidMethod()[pri:12, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:29 IST" name="setup" finished-at="2025-07-13T12:16:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DynamicallyApi3.createUser_MissingApiKey()[pri:13, instance:tests.DynamicallyApi3@72c8e7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser_MissingApiKey()[pri:13, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:29 IST" name="createUser_MissingApiKey" finished-at="2025-07-13T12:16:30 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_MissingApiKey -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DynamicallyApi3@72c8e7b]" started-at="2025-07-13T12:16:30 IST" name="tearDown" finished-at="2025-07-13T12:16:30 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DynamicallyApi3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
